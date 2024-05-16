@@ -1,0 +1,51 @@
+.slider-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.slider-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 650px;
+  height: 700px;
+}
+
+.slider-dot-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slider-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: gray;
+}
+
+.slider-img-container {
+  position: absolute;
+  left: 0;
+  transition: transform 1s ease-in-out;
+}
+
+.slider-img {
+  width: 650px;
+  height: auto;
+}
+
+.slider-button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
